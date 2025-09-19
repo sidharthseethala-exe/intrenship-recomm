@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS variables aligned with tailwind.config.js custom colors */
+:root {
+  --color-border: #e5e7eb; /* gray-200 */
+  --color-input: #ffffff;
+  --color-ring: #f97316; /* orange-500 */
+  --color-background: #f9fafb; /* gray-50 */
+  --color-foreground: #111827; /* gray-900 */
+  --color-primary: #f97316; /* orange-500 */
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #334155; /* slate-700 */
+  --color-secondary-foreground: #ffffff;
+  --color-destructive: #ef4444; /* red-500 */
+  --color-destructive-foreground: #ffffff;
+  --color-muted: #f9fafb; /* gray-50 */
+  --color-muted-foreground: #4b5563; /* gray-600 */
+  --color-accent: #f59e0b; /* amber-500 */
+  --color-accent-foreground: #111827; /* gray-900 */
+  --color-popover: #ffffff;
+  --color-popover-foreground: #111827;
+  --color-card: #ffffff;
+  --color-card-foreground: #111827;
+  --color-success: #22c55e; /* green-500 */
+  --color-success-foreground: #ffffff;
+  --color-warning: #ca8a04; /* yellow-600 */
+  --color-warning-foreground: #ffffff;
+  --color-error: #ef4444; /* red-500 */
+  --color-error-foreground: #ffffff;
+}
+
+html { scroll-behavior: smooth; }
+body { @apply bg-background text-foreground; }
+
+
