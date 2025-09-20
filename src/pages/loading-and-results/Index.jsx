@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ProgressHeader from '../../components/ui/ProgressHeader';
+import ProgressHeader from "../../components/ui/ProgressHeader.jsx"
 import NavigationButtons from '../../components/ui/NavigationButtons';
 import LoadingAnimation from './components/LoadingAnimation';
 import InternshipCard from './components/InternshipCard';
@@ -18,7 +18,7 @@ const LoadingAndResults = ({
   // Mock internship data
   const mockInternships = [
     {
-      id: 1,
+      id: 1,  
       company: 'Infosys',
       title: {
         en: 'Software Development Intern',
