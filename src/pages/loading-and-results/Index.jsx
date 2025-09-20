@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ProgressHeader from "../../components/ui/ProgressHeader.jsx"
+//import ProgressHeader from "../../components/ui/ProgressHeader.jsx"
 import NavigationButtons from '../../components/ui/NavigationButtons.jsx';
 import LoadingAnimation from './components/LoadingAnimation.jsx';
 import InternshipCard from './components/InternshipCard.jsx';
