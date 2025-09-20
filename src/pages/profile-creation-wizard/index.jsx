@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import ProgressHeader from '../../components/ui/ProgressHeader.jsx';
+import ProgressHeader from '../../components/ui/ProgressHeader';
 import NavigationButtons from '../../components/ui/NavigationButtons.jsx';
 import StepIndicator from './components/StepIndicator.jsx';
 import EducationStep from './components/EducationStep.jsx';
