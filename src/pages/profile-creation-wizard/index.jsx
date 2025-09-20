@@ -228,14 +228,14 @@ const ProfileCreationWizard = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Enhanced Progress Header with dynamic language support */}
-      <ProgressHeader
+      {/*<ProgressHeader
         currentStep={currentStep}
         totalSteps={totalSteps}
         language={language}
         onLanguageChange={handleLanguageChange}
         availableLanguages={availableLanguages}
         selectedState={formData?.location}
-      />
+      />*
       {/* Main Content */}
       <main className="pt-32 pb-24 px-4 lg:px-6">
         <div className="max-w-4xl mx-auto">

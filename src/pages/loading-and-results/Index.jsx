@@ -320,12 +320,12 @@ const LoadingAndResults = ({
   if (isLoading) {
     return (
       <div className="min-h-screen bg-background">
-        <ProgressHeader
+        {/*<ProgressHeader
           currentStep={3}
           totalSteps={3}
           language={language}
           onLanguageChange={handleLanguageChange}
-        />
+        /> */}
         
         <main className="pt-32 pb-24">
           <LoadingAnimation language={language} />
@@ -336,12 +336,12 @@ const LoadingAndResults = ({
 
   return (
     <div className="min-h-screen bg-background">
-      <ProgressHeader
+      {/*<ProgressHeader
         currentStep={3}
         totalSteps={3}
         language={language}
         onLanguageChange={handleLanguageChange}
-      />
+      /> */}
       <main className="pt-32 pb-32 px-4 lg:px-6">
         <div className="max-w-4xl mx-auto">
           {recommendations?.length > 0 ? (
