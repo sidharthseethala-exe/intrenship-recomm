@@ -5,7 +5,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import ErrorBoundary from "./components/ErrorBoundary";
 import NotFound from "./pages/NotFound";
 import LandingPage from './pages/landing-page';
-import LoadingAndResults from './pages/loading-and-results';
+import LoadingAndResults from "./pages/loading-and-results/Index.jsx";
 import ProfileCreationWizard from './pages/profile-creation-wizard';
 
 const Routes = () => {
