@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import LanguageToggle from './LanguageToggle';
-import Icon from '../AppIcon';
+import LanguageToggle from './LanguageToggle.jsx';
+import Icon from '../AppIcon.jsx';
 
 const ProgressHeader = ({ 
   currentStep = 1, 

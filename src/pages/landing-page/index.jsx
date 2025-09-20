@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import HeroSection from './components/HeroSection';
-import OpportunityStats from './components/OpportunityStats';
-import SchemeInfo from './components/SchemeInfo';
-import SuccessStories from './components/SucessStories';
-import Button from '../../components/ui/Button';
-import Icon from '../../components/AppIcon';
+import OpportunityStats from './components/OpportunityStats.jsx';
+import SchemeInfo from './components/SchemeInfo.jsx';
+import SuccessStories from './components/SucessStories.jsx';
+import Button from '../../components/ui/Button.jsx';
+import Icon from '../../components/AppIcon.jsx';
 import { useNavigate } from 'react-router-dom';
 
 const LandingPage = () => {

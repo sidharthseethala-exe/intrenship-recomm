@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import ProgressHeader from "../../components/ui/ProgressHeader.jsx"
-import NavigationButtons from '../../components/ui/NavigationButtons';
-import LoadingAnimation from './components/LoadingAnimation';
-import InternshipCard from './components/InternshipCard';
-import NoResultsMessage from './components/NoResultsMessage';
-import ResultsHeader from './components/ResultsHeader';
+import NavigationButtons from '../../components/ui/NavigationButtons.jsx';
+import LoadingAnimation from './components/LoadingAnimation.jsx';
+import InternshipCard from './components/InternshipCard.jsx';
+import NoResultsMessage from './components/NoResultsMessage.jsx';
+import ResultsHeader from './components/ResultsHeader.jsx';
 
 const LoadingAndResults = ({ 
   currentPage = 'loading-and-results',

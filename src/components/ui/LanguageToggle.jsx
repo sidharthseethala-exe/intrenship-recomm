@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Icon from '../AppIcon';
+import Icon from '../AppIcon.jsx';
 
 const LanguageToggle = ({ language = 'en', onLanguageChange = () => {}, availableLanguages = ['en', 'hi'], selectedState }) => {
   const [isOpen, setIsOpen] = useState(false);

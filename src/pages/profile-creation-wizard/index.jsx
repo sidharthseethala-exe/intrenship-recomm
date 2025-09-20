@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import ProgressHeader from '../../components/ui/ProgressHeader';
-import NavigationButtons from '../../components/ui/NavigationButtons';
-import StepIndicator from './components/StepIndicator';
-import EducationStep from './components/EducationStep';
-import SectorStep from './components/SectorStep';
-import LocationStep from './components/LocationStep';
-import Icon from '../../components/AppIcon';
+import ProgressHeader from '../../components/ui/ProgressHeader.jsx';
+import NavigationButtons from '../../components/ui/NavigationButtons.jsx';
+import StepIndicator from './components/StepIndicator.jsx';
+import EducationStep from './components/EducationStep.jsx';
+import SectorStep from './components/SectorStep.jsx';
+import LocationStep from './components/LocationStep.jsx';
+import Icon from '../../components/AppIcon.jsx';
 
 const ProfileCreationWizard = () => {
   const navigate = useNavigate();
