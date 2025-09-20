@@ -4,6 +4,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
+  base: './',
   server: {
     host: "0.0.0.0",
     allowedHosts: [".ngrok-free.app"],  // 👈 allow all ngrok subdomains
